@@ -1,0 +1,51 @@
+.app { min-height: 100vh; display: flex; flex-direction: column; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(12px);
+}
+
+.header-left { display: flex; align-items: center; gap: 14px; }
+
+.logo-mark {
+  width: 44px; height: 44px;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-head);
+  font-weight: 800; font-size: 16px;
+  color: #fff;
+  box-shadow: 0 0 20px rgba(79,110,247,0.35);
+}
+
+.app-title {
+  font-family: var(--font-head);
+  font-size: 20px; font-weight: 800;
+  background: linear-gradient(90deg, var(--text), #a5b4fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.app-sub { font-size: 12px; color: var(--muted); margin-top: 1px; }
+
+.btn-add {
+  display: flex; align-items: center; gap: 8px;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  color: #fff; border: none; border-radius: 10px;
+  padding: 10px 20px; font-size: 14px; font-weight: 600;
+  cursor: pointer; transition: all 0.2s;
+  font-family: var(--font-body);
+  box-shadow: 0 0 16px rgba(79,110,247,0.4);
+}
+.btn-add:hover { transform: translateY(-1px); box-shadow: 0 4px 24px rgba(79,110,247,0.55); }
+.btn-add span { font-size: 20px; line-height: 1; }
+
+.main { padding: 32px 40px; flex: 1; }
