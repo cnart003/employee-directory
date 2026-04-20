@@ -6,8 +6,6 @@ A full-stack Employee Directory web application built with React and Python/Flas
 
 ## Screenshots
 
-> 📸 Add screenshots here after running the app locally.
-
 ### Main Directory View
 ![Main View](screenshots/main-view.png)
 
@@ -35,12 +33,12 @@ A full-stack Employee Directory web application built with React and Python/Flas
 
 ## Features
 
-- 📋 Employee card grid with name, title, department, email, phone, and location
-- 🔍 Live search by name or department
-- 🏷️ One-click department filter pills
-- ➕ Add new employees via a validated modal form
-- 🗄️ Persistent data via SQLite database
-- 🔗 RESTful API backend with Flask
+-  Employee card grid with name, title, department, email, phone, and location
+-  Live search by name or department
+-  One-click department filter pills
+-  Add new employees via a validated modal form
+-  Persistent data via SQLite database
+-  RESTful API backend with Flask
 
 ---
 
