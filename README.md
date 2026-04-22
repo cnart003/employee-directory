@@ -43,24 +43,29 @@ A full-stack Employee Directory web application built with React and Python/Flas
 ---
 
 ## Project Structure
+
+```
 employee-directory/
 ├── backend/
-│   ├── app.py           # Flask REST API routes
-│   ├── database.py      # SQLite setup and seed data
-│   ├── employees.db     # Auto-generated SQLite database
+│   ├── app.py              # Flask REST API routes
+│   ├── database.py         # SQLite setup and seed data
+│   ├── employees.db        # Auto-generated SQLite database
 │   └── requirements.txt
-└── frontend/
-├── src/
-│   ├── App.jsx
-│   ├── App.css
-│   ├── main.jsx
-│   ├── index.css
-│   └── components/
-│       ├── EmployeeGrid.jsx
-│       ├── SearchBar.jsx
-│       └── AddEmployeeModal.jsx
-├── package.json
-└── vite.config.js
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── main.jsx
+│   │   ├── index.css
+│   │   └── components/
+│   │       ├── EmployeeGrid.jsx
+│   │       ├── SearchBar.jsx
+│   │       └── AddEmployeeModal.jsx
+│   ├── package.json
+│   └── vite.config.js
+├── screenshots/
+└── README.md
+```
 
 ---
 
